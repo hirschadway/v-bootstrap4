@@ -7,6 +7,14 @@
       $2
     </div>
     """
+    
+    'Alerts adway':
+    'prefix': 'alert-adway'
+    'body': """
+    <div class="alert alert-adway${1:success}" role="alert">
+      $2
+    </div>
+    """
 
   'Alerts link':
     'prefix': 'alert-link'
